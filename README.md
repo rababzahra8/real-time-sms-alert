@@ -4,6 +4,12 @@ This project is a fundamental web application built using the Ruby on Rails 7.0 
 
 In this application, Users can register by entering their phone numbers to receive SMS notifications triggered by specific events. After registration, users receive an initial SMS notification. Additionally, pressing two designated buttons on the homepage initiates the sending of SMS messages with unique content. One button directs users to an edit page, where changing the phone number triggers another message. The second button simply sends a text message when clicked. The Twilio API integration facilitates the transmission of these SMS messages.
 
+![Signup-page](https://github.com/rababzahra8/real-time-sms-alert/assets/88228887/134244a2-68f6-415a-86fb-b1eaabc63dc5)
+
+![SMS-alert](https://github.com/rababzahra8/real-time-sms-alert/assets/88228887/25c1ef82-6feb-4634-82bf-cec828bd6044)
+
+![root-page](https://github.com/rababzahra8/real-time-sms-alert/assets/88228887/bbc50df7-468c-4282-9656-f0e1e75e541e)
+
 # App Build
 
 - Framework: Ruby on Rails 7.0
