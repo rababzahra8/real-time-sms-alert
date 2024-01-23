@@ -1,0 +1,71 @@
+require:
+  - rubocop-performance
+  - rubocop-rails
+  - rubocop-rspec
+
+AllCops:
+  TargetRubyVersion: 3.1.2
+  NewCops: enable
+  Exclude:
+    - '**/node_modules/**/*'
+    - 'db/schema.rb'
+    - 'bin/*'
+
+Bundler/OrderedGems:
+  Enabled: false
+
+Layout/LineLength:
+  Enabled: false
+
+Lint/AmbiguousBlockAssociation:
+  Exclude:
+    - 'spec/**/*'
+
+Metrics/AbcSize:
+  Enabled: false
+
+Metrics/BlockLength:
+  Enabled: false
+
+Metrics/MethodLength:
+  Enabled: false
+
+Rails/BulkChangeTable:
+  Enabled: false
+
+Rails/EnvironmentVariableAccess:
+  AllowReads: true
+
+Rails/HasAndBelongsToMany:
+  Enabled: false
+
+Rails/InverseOf:
+  Enabled: false
+
+Rails/LexicallyScopedActionFilter:
+  Enabled: false
+
+Rails/SkipsModelValidations:
+  Exclude:
+    - 'spec/**/*'
+
+RSpec/ContextWording:
+  Enabled: false
+
+RSpec/InstanceVariable:
+  AssignmentOnly: true
+
+RSpec/MultipleMemoizedHelpers:
+  Enabled: false
+
+RSpec/NestedGroups:
+  Enabled: false
+
+Style/AsciiComments:
+  Enabled: false
+
+Style/ClassAndModuleChildren:
+  Enabled: false
+
+Style/Documentation:
+  Enabled: false
