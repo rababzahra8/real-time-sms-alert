@@ -8,7 +8,6 @@ In this application, Users can register by entering their phone numbers to recei
 
 ![SMS-alert](https://github.com/rababzahra8/real-time-sms-alert/assets/88228887/25c1ef82-6feb-4634-82bf-cec828bd6044)
 
-![root-page](https://github.com/rababzahra8/real-time-sms-alert/assets/88228887/bbc50df7-468c-4282-9656-f0e1e75e541e)
 
 # App Build
 
